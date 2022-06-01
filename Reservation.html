@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Reservation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Link href="res.css" type="text/css" rel="stylesheet"> 
+        <script src="head.js"></script>
+    </head>
+    <body>
+        <div class="name">
+            <h1>Chill 漆 7</h1>
+        </div>
+        <div id="navbar">
+            <a href="전시회(HOME).html">HOME</a>
+            <a href="전시회(소개).html">ABOUT</a>
+            <a class="active" href="Reservation.html#RESERVATION">RESERVATION</a>
+            <a href="찾아오는길.html">LOCATION</a>
+            
+        </div>
+      
+        <br>
+        <div class="exh">
+            <div class="container1  ">
+                <img class="chill" src="홈페이지3.jpg">
+            </div>
+            <div class="container2">
+                <img class="chill" src="홈페이지6.jpg">
+            </div>
+            <div class="clear"></div>
+            <div class="container3">
+                <img class="chill" src="예약1.jpg">
+            </div>
+
+            <p>An exhibition of photographs of university students' 'Chill' moments</p>
+            <hr>
+            <div class="info">
+                <h2>📒 Exhibition guide </h2>
+                <table border="1">
+                    <tr>
+                        <td bgcolor="lightgray">Exhibition name</td>
+                        <td>Time to chill</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="lightgray">Exhibition period</td>
+                        <td>May 14, 2022 ~ June 10, 2022</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="lightgray">Location</td>
+                        <td>Seogyo-dong,Mapo-gu,Seoul</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="lightgray">organizer</td>
+                        <td>Cafe-BIAS</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="lightgray">e-mail</td>
+                        <td>jiwoo33333@naver.com</td>
+                    </tr>
+                </table>
+            </div> 
+        </div>
+        <div class="rightbar">
+            <div class="callendar">
+                <script>
+                    var dCurDate = new Date();
+                    frmCalendarSample.tbSelMonth.options[dCurDate.getMonth()].selected = true;
+                    for (i = 0; i < frmCalendarSample.tbSelYear.length; i++)
+                    if (frmCalendarSample.tbSelYear.options[i].value == dCurDate.getFullYear())
+                    frmCalendarSample.tbSelYear.options[i].selected = true;
+                    </script>
+                    <table border="1" cellspacing=0 cellpadding=2>
+                    <tr>
+                    <td>
+                    <select name="tbSelMonth">
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    </select>
+                      
+                    2022
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <script>
+                    var dCurDate = new Date();
+                    fDrawCal(dCurDate.getFullYear(), dCurDate.getMonth()+1, 30, 30, "12px", "bold", 1);
+                    </script>
+                    </td>
+                    </tr>
+                    </table>
+                    </form>
+            </div>
+            <div class="reserve">
+                <a href="payment.html"><h2>Reserve</h2></a>
+            </div>
+        </div>
+        
+       
+        <div id="footer">
+            <hr>
+              
+            <a href="https://www.instagram.com/8rang2022/"><img id="insta" src="인스타아이콘.png" width="70px" height="70px"></a>
+              host Gachon UNIV<br>
+              #사진 #대학생 #공모전 #홍대 #전시회 #사진계정소통 #대학생대외활동<br>
+              Galleria Café Vias (532nd floor, 35 Wausan-ro, Mapo-gu, Seoul)
+              Last Modified on May. 31, 2022.<br />
+           
+          </div>
+    </body>
+</html>
