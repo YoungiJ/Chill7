@@ -1,0 +1,183 @@
+/* 헤더 시작 */
+
+body{
+    font-family: "Montserrat",sans-serif;
+}
+#header{
+
+    height: 600px;
+    position: relative;
+    
+}
+#header::before{
+    background-image: url(홈페이지6.jpg);   
+    background-size: cover;
+    position: absolute;
+    height:600px;
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+/* 로고 시작 */
+#logo{
+     position: absolute;
+    top: 50%;
+    left: 50%; 
+     margin: -70px -250px;
+    text-align: center;
+}
+#logo>span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100px;
+
+}
+
+/* nav bar 시작 */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color:#f1f1f1;
+    font-family: "Montserrat",sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+  
+    color: white;
+    color: black;
+    padding:20px 50px 20px 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+ 
+   
+.nav-links li a:hover:not(.active){
+    background-color: #dddddd;
+    color: black;
+}
+a.active{
+    background-color: #a2a1a1;
+}
+
+
+
+
+/* table 시작 */
+
+.tb_data{
+    -webkit-text-size-adjust: none;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #666;
+    font-family: '나눔바른고딕', 'NanumBarunGothic', 'Nanum Barun Gothic', '나눔고딕', 'NanumGothic', 'Nanum Gothic', 'Malgun Gothic', Arial, Dotum, Gulim, Verdana, Tahoma;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    table-layout: fixed;
+    border: 0;
+    border-spacing: 0;
+    border-bottom: 1px solid #eee;
+    width: calc(90%);
+    height: 405px;
+}
+th{
+    background-color: rgb(227, 226, 226);
+}
+.al{
+
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.col{
+    border-left: #eee;
+}
+.tb_data tbody tr>*:first-child {
+    border-left: 0px;
+}
+
+/* 지도 시작 */
+
+.list_container{
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(222, 224, 224);
+    overflow: hidden;
+}
+.list_div{
+    float: left;
+    width: 50%;
+}
+.list1{
+    list-style-image:url(location.png);
+    font-size: 15px;
+}
+.list2{
+    list-style-image:url(phone.png);
+    font-size: 15px;
+}
+#insta{float:left;}
+#footer {
+   
+    clear: both;
+    text-align: right;
+    font-style: italic;
+    padding: 10px;
+  }
+
+
+/* 화면 작을 시 적용 */
+@media(max-width:720px) {
+    .list_div{
+        clear: both;
+        width: 100%;
+    }
+    .list1{
+        font-size: 15px;
+        width: 100%;
+    }
+    .list2{
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    #header{
+        margin: 0;
+        padding: 0;
+        height: 400px;
+        position: relative;
+        
+    }
+    #header::before{
+        background-image: url(team2.jpg);   
+        background-size: cover;
+        position: absolute;
+        height:400px;
+        content: "";
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.5;
+    }
+    iframe{
+        height: 400px;
+    }
+}
