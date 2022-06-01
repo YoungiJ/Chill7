@@ -1,0 +1,140 @@
+
+.name {
+    background: url("홈페이지2.jpg");
+    font-size:50px;
+    color:black;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 50px;
+}
+#navbar {
+    text-align: center;
+    background-color:#f1f1f1;
+    padding: 14px 0;
+  }
+
+#navbar a {
+
+    color: white;
+    color: black;
+    padding:20px 50px 20px 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar a:hover {
+    background-color: #dddddd;
+    color: black;
+  }
+  a.active{
+    background-color: #a2a1a1;
+}
+
+.container1{
+    width:42%;
+    float:left;
+    height:300px;
+    border:8px solid lightgray;
+}
+
+.container2{
+    width:42%;
+    float:left;
+    margin-left:17px;
+    height:300px;
+    border:8px solid lightgray;
+}
+
+.container3{
+    width:90%;
+    margin-top:5%; 
+    height:400px;
+    border:8px solid lightgray;
+}
+
+.clear{
+    clear:both;
+}
+
+.chill{
+    width:100%;
+    height:100%;
+}
+
+
+.exh{
+    width:45%;
+    padding-top:3%;
+    color:gray;
+    float:left;
+    padding-left: 10%;
+}
+p{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.info{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rightbar{
+    margin-left:60%;
+    margin-top:5%;
+    width:30%;
+    padding-top:2%;
+    background-color:rgb(230, 235, 241);
+    position:fixed;
+}
+
+.callendar{
+    margin-left:25%;
+}
+
+.reserve{
+    width:45%;
+    text-align: center;
+    background-color: lightgray;
+    margin-left:25%;
+}
+
+.reserve a:visited{
+    color: black;
+}
+.reserve:hover{
+    background-color: gray;
+}
+.reserve a{
+    text-decoration-line: none;
+    color:black;
+} 
+
+#footer {
+    clear: both;
+    text-align: right;
+    font-style: italic;
+    padding: 10px;
+  }
+#insta{float:left;}
+
+@media (max-width: 600px) {
+    #navbar{
+      display: block;
+    }
+  
+    .exh {
+      clear: both;
+      width: 95%;
+    }
+    .rightbar {
+        clear: both;
+        width: 50%;
+      }
+    #clear{
+      
+      clear: both;
+    }
+  }

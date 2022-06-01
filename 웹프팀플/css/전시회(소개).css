@@ -1,0 +1,89 @@
+body {
+       text-align:center;
+  }
+h1{
+    font-size: 100px;
+    color:black;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+  }
+
+#header {
+    padding: 70px;
+    text-align: center;
+    background: url("홈페이지2.jpg");
+}
+
+#navbar {
+    background-color:#f1f1f1;
+    padding: 14px 0;
+  }
+
+#navbar a {
+
+    color: white;
+    color: black;
+    padding:20px 50px 20px 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar a:hover {
+    background-color: #dddddd;
+    color: black;
+  }
+  a.active{
+    background-color: #a2a1a1;
+}
+
+
+p{
+  font-family:'Times New Roman', Times, serif;
+}
+ 
+.main > h2 {
+    margin: 50px 0 30px 0;
+  }
+
+.img1{
+
+    padding: 10px;
+    width: 700px;
+    height: 800px;
+    object-fit: cover;
+}
+
+#clear {
+    clear: both;
+  }
+
+#footer {
+  clear: both;
+  text-align: right;
+  font-style: italic;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  #navbar{
+    display: block;
+  }
+  #header{
+    display: block;
+  }
+  .about {
+    clear: both;
+    width: 95%;
+  }
+  .main {
+    clear: both;
+    width: 95%;
+  }
+  #clear{
+    
+    clear: both;
+  }
+}
